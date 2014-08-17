@@ -1,0 +1,33 @@
+application: tom-purucker
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+libraries:
+- name: django
+  version: "1.5"
+- name: PIL
+  version: "latest"
+
+builtins:
+- django_wsgi: on
+
+env_variables:
+#  DJANGO_SETTINGS_MODULE: 'ung_www.settings'
+
+handlers:
+- url: /static
+  static_dir: static
+#- url: /ung_www/static
+#  static_dir: ung_www/static
+#- url: /favicon\.ico
+#  static_files: static/favicon.ico
+- url: /.*
+  script: main.app
+
+#import logging
+#logging.info('1b- app.yaml')
+
+
+
