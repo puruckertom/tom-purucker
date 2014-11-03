@@ -10,7 +10,7 @@ https://docs.djangoproject.com/en/1.6/ref/settings/
 
 import os
 import logging
-logging.info('5- in settings.py')
+logging.info('6- in settings.py')
 
 # Define ENVIRONMENTAL VARIABLES for project (replaces the app.yaml)
 os.environ.update({
@@ -22,8 +22,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 PROJECT_ROOT = os.path.abspath(os.path.dirname(__file__))
 #PROJECT_ROOT = BASE_DIR
 
-logging.info('BASE_DIR='+BASE_DIR)
-logging.info('PROJECT_ROOT='+PROJECT_ROOT)
+logging.info('7-BASE_DIR='+BASE_DIR)
+logging.info('8-PROJECT_ROOT='+PROJECT_ROOT)
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/1.6/howto/deployment/checklist/
 
@@ -46,7 +46,7 @@ TEMPLATE_DIRS = (
     os.path.join(PROJECT_ROOT, 'templates').replace('\\','/'),
 )
 
-logging.info('TEMPLATE_DIRS='+str(tuple(TEMPLATE_DIRS)))
+logging.info('9-TEMPLATE_DIRS='+str(tuple(TEMPLATE_DIRS)))
 
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -82,7 +82,7 @@ MIDDLEWARE_CLASSES = (
 
 #ROOT_URLCONF = 'ung_www.urls'
 ROOT_URLCONF = 'urls'
-logging.info('ROOT_URLCONF='+ROOT_URLCONF)
+logging.info('10-ROOT_URLCONF='+ROOT_URLCONF)
 
 WSGI_APPLICATION = 'wsgi.application'
 
@@ -133,7 +133,7 @@ STATICFILES_DIRS = (
     os.path.join(PROJECT_ROOT, 'static'),
 )
 
-logging.info('STATICFILES_DIRS='+str(tuple(STATICFILES_DIRS)))
+logging.info('11-STATICFILES_DIRS='+str(tuple(STATICFILES_DIRS)))
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -146,5 +146,5 @@ STATIC_URL = '/static/'
 print 'BASE_DIR = %s' %BASE_DIR
 print 'PROJECT_ROOT = %s' %PROJECT_ROOT
 
-logging.info('7 out of- settings.py')
+logging.info('12 out of- settings.py')
 

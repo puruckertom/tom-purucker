@@ -2,13 +2,13 @@ from django.conf.urls import patterns, include, url
 #from stp_app.views import home
 
 import logging
-logging.info('8- in ung_www/urls.py')
+logging.info('13- in ung_www/urls.py')
 
 urlpatterns = patterns('',
-	(r'^$', 'views.home'),
+	(r'^$', 'stp_app.views.home'),
 )
 
-logging.info('9- out of ung_www/urls.py')
+logging.info('14- out of ung_www/urls.py')
 
 #urlpatterns = patterns('',
 #    url(URL 1, function_name 1, page_name 1),
