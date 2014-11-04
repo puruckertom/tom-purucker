@@ -11,26 +11,42 @@
 }
 
 .bigpic {
-  background-image:url(BASE_DIR+'/static/images/lpr_gsm.jpg');
+  background-image:url('../images/lpr_gsm.jpg');
   height:500px;
   background-repeat:no-repeat;
 }
 
 .bigpic .container {
   position: relative;
-  top:100px;
+  top:2px;
 }
 
 .bigpic h1 {
-  color: #fff;
+  color: #FF8C00;
+  background-color: #8FBC8F;
   font-size: 48px;  
   font-family: 'Shift', sans-serif;
   font-weight: bold;
+  opacity: 0.95;
+  text-align: center;
 }
 
-.bigpic p {
-  font-size: 20px;
+.bigpic h2 {
+  color: #8FBC8F;
+  font-family: 'Shift', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: #8FBC8F;
+  opacity: 0.95;
+  text-align: center;
+}
+
+.bigpic h3 {
+  font-size: 24px;
   color: #fff;
+  background-color: #8FBC8F;
+  opacity: 0.95;
+  text-align: center;
 }
 
 .someinfo {
@@ -38,8 +54,9 @@
 }
 
 .someinfo h3 {
+  color: #000080;
   font-family: 'Shift', sans-serif;
-  font-size: 18px;
+  font-size: 48px;
   font-weight: bold;
 }
 
