@@ -32,19 +32,19 @@
 }
 
 .bigpic h2 {
-  color: #8FBC8F;
+  color: #FF8C00;
   font-family: 'Shift', sans-serif;
-  font-size: 30px;
-  font-weight: bold;
-  background-color: #8FBC8F;
+  font-size: 22px;
+  background-color: #5a5a5a;
   opacity: 0.95;
   text-align: center;
 }
 
 .bigpic h3 {
-  font-size: 24px;
+  font-size: 22px;
+  font-family: 'Shift', sans-serif;
   color: #fff;
-  background-color: #8FBC8F;
+  background-color: #5a5a5a;
   opacity: 0.95;
   text-align: center;
 }
