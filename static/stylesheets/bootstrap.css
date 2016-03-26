@@ -4535,26 +4535,26 @@ th.visible-print, td.visible-print {
     font-size: 20px;
     color: #00b0ff;
 }
-.neighborhood-guides h2 {
+.teaching-research h2 {
     margin-top: 37px;
 }
-.neighborhood-guides .thumbnail {
+.teaching-research .thumbnail {
     margin: none;
     padding: none;
     border: none;
     background-color: transparent;
     position: relative;
 }
-.learn-more {
+.research-grid {
     padding-top: 25px;
     padding-bottom: 50px;
 }
-.neighborhood-guides .thumbnail {
+.teaching-research .thumbnail {
     max-width: 360px;
     margin-left: auto;
     margin-right: auto;
 }
-.neighborhood-guides .thumbnail h4 {
+.teaching-research .thumbnail h4 {
     font-family: Shift, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 29px;
     color: #fff;
