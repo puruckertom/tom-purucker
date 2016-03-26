@@ -4535,30 +4535,3 @@ th.visible-print, td.visible-print {
     font-size: 20px;
     color: #00b0ff;
 }
-.teaching-research h2 {
-    margin-top: 37px;
-}
-.teaching-research .thumbnail {
-    margin: none;
-    padding: none;
-    border: none;
-    background-color: transparent;
-    position: relative;
-}
-.research-grid {
-    padding-top: 25px;
-    padding-bottom: 50px;
-}
-.teaching-research .thumbnail {
-    max-width: 360px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.teaching-research .thumbnail h4 {
-    font-family: Shift, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 29px;
-    color: #fff;
-    text-shadow: 0 1px 8px rgba(0, 0, 0, .5);
-    position: absolute;
-    top: 0;
-}

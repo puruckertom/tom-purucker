@@ -2,149 +2,198 @@
 <html lang="en">
 
 <head>
-<link href="../static/stylesheets/shift.css" rel="stylesheet">
-<link rel="stylesheet" href="../static/stylesheets/bootstrap.css">
-<link rel="stylesheet" href="../static/stylesheets/main.css">
+    <link href="../static/stylesheets/shift.css" rel="stylesheet">
+    <link rel="stylesheet" href="../static/stylesheets/bootstrap.css">
+    <link rel="stylesheet" href="../static/stylesheets/main.css">
 </head>
 
 <!-- header of main web page -->
 <body>
 <div class="nav">
-  <div class="container">
-    <ul class="pull-left">
-      <li>|<a href="https://goo.gl/2abjBN" target="_blank">Bio 1107K Schedule</a><a href="https://goo.gl/d4SE9r"
-                                                                                    target="_blank">Syllabus</a>|</li>
-      <li><a href="https://goo.gl/f5ecs0" target="_blank">Math 2400 Schedule</a><a href="https://goo.gl/1jIaTS"
-                                                                                    target="_blank">Syllabus</a>|</li>
-    </ul>
-    <ul class="pull-right">
-      <li>|<a href="http://scholar.google.com/citations?user=gQGPrlUAAAAJ" target="_blank">Research</a></li>
-      <li>|<a href="https://github.com/puruckertom" target="_blank">Programming</a></li>
-      <li>|<a href="https://goo.gl/UJDNUX" target="_blank">CV</a>|</li>
-    </ul>
-  </div>
+    <div class="container">
+        <div class="col-md-3">
+            <div class="stp-text-name">
+                Tom Purucker
+            </div>
+        </div>
+        <div class="col-md-3">
+            | <a href="https://goo.gl/2abjBN" target="_blank">Bio 1107K Schedule</a>
+            | <a href="https://goo.gl/d4SE9r" target="_blank">Syllabus</a> |
+        </div>
+        <div class="col-md-3">
+            | <a href="https://goo.gl/f5ecs0" target="_blank">Math 2400 Schedule</a>
+            | <a href="https://goo.gl/1jIaTS" target="_blank">Syllabus</a> |
+        </div>
+        <div class="col-md-3">
+            | <a href="http://scholar.google.com/citations?user=gQGPrlUAAAAJ" target="_blank">Research</a>
+            | <a href="https://github.com/puruckertom" target="_blank">Programming</a>
+            | <a href="https://goo.gl/UJDNUX" target="_blank">CV</a> |
+        </div>
+    </div>
 </div>
 
 <!-- bootstrap jumbotron image -->
 <div class="bigpic">
   <div class="container">
     <div class="row">
-      <div class="col-md-2"><h2>Tom Purucker</h2></div>
-      <div class="col-md-6"><h3> Adjunct instructor of biology and statistics. </h3></div>
-      <div class="col-md-4"><h3><a href="http://www.ung.edu/">University of North Georgia</a></h3></div>
     </div>
   </div>
 </div>
 
 <!-- main div for all teaching and research info -->
-<div class="teaching-research">
-    <!-- teaching container -->
-    <div class="container">
-      <h2>Teaching</h2>
-      <p>I am a part-time instructor on the Oconee Campus of the
-          <a href="http://www.ung.edu">University of North Georgia</a>. I teach Biology and Statistics.
-      </p>
-      <div class="row">
-          <div class="col-md-6">
-              <a href="https://goo.gl/2abjBN">
-                  <img src="../static/images/leaf_frog2.jpg" height="300" width="570">
-              </a>
-          </div>
-          <div class="col-md-6">
-              <a href="https://goo.gl/f5ecs0">
-                  <img src="../static/images/kandinsky2.png" height="300" width="570">
-              </a>
-          </div>
-      </div>
+<div class="stp-teaching-research">
 
-    <h2>Applied Research</h2>
-    <p>I am a <a href="http://www.epa.gov/ATHENS/staff/members/puruckertom/index.html">research ecologist</a> at a US
-        Environmental Protection Agency laboratory in Athens,    Georgia. I work with other biologists, chemists,
-        engineers, statisticians, and programmers conducting applied research on environmental exposures and effects
-        of pesticides.
+<!-- teaching container for images-->
+<div class="container">
+    <h2>Teaching</h2>
+    <p>I am a part-time instructor on the Oconee Campus of the
+        <a href="http://www.ung.edu">University of North Georgia</a>. I teach biology and statistics in the
+        <a href="http://ung.edu/college-science-and-mathematics/index.php">College of Science and Mathematics</a>.
     </p>
     <div class="row">
-      <div class="col-md-4">
-          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3434931/">
-              <img src="../static/images/leopard_frog.jpg" height="250" width="375">
-          </a>
-      </div>
-      <div class="col-md-4">
-          <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2984095/">
-            <img src="../static/images/wheat.jpg" height="250" width="375">
-          </a>
-      </div>
-      <div class="col-md-4">
-          <a href="https://www.whitehouse.gov/sites/default/files/microsites/ostp/Pollinator%20Health%20Strategy%202015.pdf">
-            <img src="../static/images/bees.jpg" height="250" width="375">
-          </a>
-      </div>
+        <div class="col-md-6">
+            <div class="image-wrapper">
+                <img id="class-image" src="../static/images/leaf_frog2.jpg" height="300" width="570"/>
+                <H2><p id="class-text">
+                    Bio 1107K
+                </p></H2>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="image-wrapper">
+            <img src="../static/images/kandinsky2.png" height="300" width="570"/>
+                <H2><p id="class-text">
+                    Math 2400
+                </p></H2>
+        </div>
     </div>
- <p> </p>
-    <div class="row">
-      <div class="col-md-4">
-          <a href="http://science.sciencemag.org/content/341/6147/759">
-            <img src="../static/images/bats.jpg" height="250" width="375">
-          </a>
-      </div>
-      <div class="col-md-4">
-          <a href="https://www.epa.gov/reducing-pesticide-drift">
-            <img src="../static/images/spray.jpg" height="250" width="375">
-          </a>
-      </div>
-      <div class="col-md-4">
-          <a href="http://www.sciencedirect.com/science/article/pii/S016953471200273X">
-            <img src="../static/images/market.jpg" height="250" width="375">
-          </a>
-      </div>
-    </div>
-  </div>
 </div>
 
-</div>
-
-<div class="research-grid">
+<!-- teaching container for text -->
+<div class="stp-text-grid">
     <div class="container">
         <div class="row">
-                <div class="col-md-4">
-                    <h3>Federal law on pesticides</h3>
-                </div>
-                <div class="col-md-4">
-                    <h3>Estimating exposure and effects</h3>
-                </div>
-                <div class="col-md-4">
-                    <h3>Challenging models with data</h3>
-                </div>
+            <div class="col-md-6">
+                <h3>Principles of Biology I</h3>
+            </div>
+            <div class="col-md-6">
+                <h3>Elementary Statistics</h3>
+            </div>
         </div>
         <div class="row">
-            <div class="col-md-4">
-                  <p>The US Congress has passed a number of laws concerning the registration and use of pesticides. The
-                      EPA regulates the use of pesticides under these federal statutes. Approved pesticides carry
-                      <a href="https://www.epa.gov/pesticide-labels">product labels</a> that provide information on
-                      how to safely handle and use pesticides.
-                  </p>
-                  <p><a href="http://www.epa.gov/pesticides/regulating/laws.htm">Pesticide laws and regulations</a></p>
+            <div class="col-md-6">
+                <p>Biology 1107K: Principles of Biology I is a a course for science majors that includes biological
+                    chemistry, cell structure and function, bioenergetics, inheritance, gene expression, regulation
+                    and technology, population genetics and evolution. We meets on Monday, Wednesday, and
+                    Fridays at 8am with a lab on Wednesday at 5pm.
+                </p>
+                <p>| <a href="https://goo.gl/2abjBN" target="_blank">Schedule</a> |
+                    <a href="https://goo.gl/d4SE9r" target="_blank">Syllabus</a> |</p>
             </div>
-            <div class="col-md-4">
-                  <p>Data about pesticides are submitted to the EPA,
-                      <a href="https://www.epa.gov/pesticide-registration/pesticide-registration-manual">this data</a>,
-                      combined with a number of environmental exposure and effect models, are used to determine if a
-                      pesticide is to be registered and how their use is restricted. We have reprogrammed a number of
-                      these models so they can be run as web applications.</p>
-                  <p><a href="http://qed.epa.gov/ubertool">ubertool</a></p>
-            </div>
-            <div class="col-md-4">
-                  <p>An important part of using models to estimate real-world phenomena is to compare model predictions
-                      to observations. We collect data on amphibians and honeybees to test the predictions of pesticide
-                      models using both
-                      <a href="http://stattrek.com/hypothesis-test/hypothesis-testing.aspx">hypothesis testing</a> and
-                      <a href="https://onlinecourses.science.psu.edu/stat414/node/191">likelihood estimation</a>
-                      approaches.
-                  </p>
-                  <p><a href="http://en.wikipedia.org/wiki/Scientific_method">Scientific Method</a></p>
+            <div class="col-md-6">
+                <p>Math 2400: Elementary Statistics is a non-calculus introduction to graphical and numerical methods
+                    of describing data, linear regression and correlation, basic probability, normal distributions,
+                    estimation, and inferential hypothesis testing. This class meets on Monday and Wednesday evenings
+                    from 7-8:15.
+                </p>
+                <p>| <a href="https://goo.gl/f5ecs0" target="_blank">Schedule</a> |
+                    <a href="https://goo.gl/1jIaTS" target="_blank">Syllabus</a> |</p>
             </div>
         </div>
     </div>
+</div>
+
+<!-- research container for images -->
+<div class="container">
+    <h2>Applied Research</h2>
+    <p>I am a <a href="http://www.epa.gov/ATHENS/staff/members/puruckertom/index.html">research ecologist</a> at a US
+    Environmental Protection Agency laboratory in Athens,    Georgia. I work with other biologists, chemists,
+    engineers, statisticians, and programmers conducting applied research on environmental exposures and effects
+    of pesticides.
+    </p>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="http://www.sciencedirect.com/science/article/pii/S016953471200273X">
+                <img src="../static/images/market.jpg" height="250" width="375">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="http://science.sciencemag.org/content/341/6147/759">
+                <img src="../static/images/bats.jpg" height="250" width="375">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="https://www.whitehouse.gov/sites/default/files/microsites/ostp/Pollinator%20Health%20Strategy%202015.pdf">
+            <img src="../static/images/bees.jpg" height="250" width="375">
+            </a>
+        </div>
+    </div>
+    <p> </p>
+    <div class="row">
+        <div class="col-md-4">
+            <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2984095/">
+                <img src="../static/images/wheat.jpg" height="250" width="375">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="https://www.epa.gov/reducing-pesticide-drift">
+            <img src="../static/images/spray.jpg" height="250" width="375">
+            </a>
+        </div>
+        <div class="col-md-4">
+            <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3434931/">
+                <img src="../static/images/leopard_frog.jpg" height="250" width="375">
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- research container for text -->
+<div class="stp-text-grid">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <h3>Federal law on pesticides</h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Estimating exposure and effects</h3>
+            </div>
+            <div class="col-md-4">
+                <h3>Challenging models with data</h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <p>The US Congress has passed a number of laws concerning the registration and use of pesticides. The
+                  EPA regulates the use of pesticides under these federal statutes. Approved pesticides carry
+                  <a href="https://www.epa.gov/pesticide-labels">product labels</a> that provide information on
+                  how to safely handle and use pesticides.
+                </p>
+                <p><a href="http://www.epa.gov/pesticides/regulating/laws.htm">Pesticide laws and regulations</a></p>
+            </div>
+            <div class="col-md-4">
+                <p>Data about pesticides are submitted to the EPA,
+                  <a href="https://www.epa.gov/pesticide-registration/pesticide-registration-manual">this data</a>,
+                  combined with a number of environmental exposure and effect models, are used to determine if a
+                  pesticide is to be registered and how their use is restricted. We have reprogrammed a number of
+                  these models so they can be run as web applications.</p>
+                <p><a href="http://qed.epa.gov/ubertool">ubertool</a></p>
+            </div>
+            <div class="col-md-4">
+                <p>An important part of using models to estimate real-world phenomena is to compare model predictions
+                  to observations. We collect data on amphibians and honeybees to test the predictions of pesticide
+                  models using both
+                  <a href="http://stattrek.com/hypothesis-test/hypothesis-testing.aspx">hypothesis testing</a> and
+                  <a href="https://onlinecourses.science.psu.edu/stat414/node/191">likelihood estimation</a>
+                  approaches.
+                </p>
+                <p><a href="http://en.wikipedia.org/wiki/Scientific_method">Scientific Method</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- end of main div for all teaching and research info -->
 </div>
 
 </body>
