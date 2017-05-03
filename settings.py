@@ -143,8 +143,8 @@ STATICFILES_FINDERS = (
 
 STATIC_URL = '/static/'
 
-print 'BASE_DIR = %s' %BASE_DIR
-print 'PROJECT_ROOT = %s' %PROJECT_ROOT
+print 'BASE_DIR = {0!s}'.format(BASE_DIR)
+print 'PROJECT_ROOT = {0!s}'.format(PROJECT_ROOT)
 
 logging.info('12 out of- settings.py')
 
